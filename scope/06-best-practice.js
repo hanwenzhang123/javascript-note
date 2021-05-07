@@ -1,3 +1,11 @@
+avoid cluttering the global namespace with lots of variables
+
+only declare variables globally if they need to be accessed globally
+
+otherwide, it is safer to declare variable in functions or blocks so you do not overwrite variables accidentally,
+  or access the wrong variable by mistake (both likely sources of bugs)
+
+
 functions generally should not change globally scoped variable
 inside the function, should not change variable outside the function
 Do not change global variable and do not use global variable inside the function!

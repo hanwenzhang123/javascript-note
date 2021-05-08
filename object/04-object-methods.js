@@ -41,9 +41,5 @@ graceHopper.sayQuote();
 console.log(graceHopper.getAge(2021));    // 115
 graceHopper.greet('Jane')   // hello, Jane!
 
-
    
-
-
-
-introduction to the keyword 'this'
+   

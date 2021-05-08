@@ -24,6 +24,7 @@ amazingArray.push(happyString);
 
 console.log(amazingArray);    //[happy haappy happyy]
 
+
 //functions are not special. we can push them into an array, too
 
 let amazingArray = []

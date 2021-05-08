@@ -3,6 +3,8 @@
 
 // this - a magical keyword refers to the entire object itself (the container itself)
 
+// js is an object-oriented language, which means objects and their methods play a key role in most production js code bases
+
 let graceHopper = {
   first: 'Grace',
   last: 'Hopper',

@@ -9,3 +9,9 @@ in the real world, you may see recursion instead of iteration when a recursive s
 (Recursion uses more memory but is sometimes clearer and more readable.)
 
   
+recursion is functions calling itself to solve problem
+recursion and call stack are interrelated
+recursion uses call stack to store information and unwind the call stack to pass the answer to higher number of the stack
+
+
+  

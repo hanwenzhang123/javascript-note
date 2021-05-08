@@ -46,19 +46,6 @@ if (names.indexOf(person) > -1){
 console.log('person NOT found');
 }
 
-.slice() - subtract a portion of the array, like a big sandwich cutting the portion
-names.slice(0,1)  //["Amit"]  //first one
-names.slice(0,2) //["Amit", "George"]  //first two
-names.slice(1,2) //["George"]  //start from one, cut at two
-names.slice(1) // everything from index 1 (exclude the first element)
-
-
-let namesCopy = names.slice();  // like making a copy of the array
-namesCopy[0] = 'Kate';
-
-console.log(names);  //original array
-console.log(nameCopy);  //only change the first element to Kate from the copy array
-
 
 .includes() method - check if a value is in array
 console.log(names.inclues('Nimit')); //true

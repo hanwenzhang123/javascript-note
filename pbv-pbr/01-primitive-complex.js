@@ -1,4 +1,7 @@
 Pass By Value vs Pass By Reference
+The terms “pass by value” and “pass by reference” are used to describe how variables are passed on. 
+To make it short: pass by value means the actual value is passed on. 
+Pass by reference means a number (called an address) is passed on which defines where the value is stored.
 
 primitive vs complex types
 Primitive values in JS

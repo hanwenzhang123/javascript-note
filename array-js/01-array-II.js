@@ -1,10 +1,4 @@
 .slice() - subtract a portion of the array, like a big sandwich cutting the portion, it creates a new array
-names.slice(0,1)  //["Amit"]  //first one
-names.slice(0,2) //["Amit", "George"]  //first two
-names.slice(1,2) //["George"]  //start from one, cut at two
-names.slice(1) // everything from index 1 (exclude the first element)
-
-
 let namesCopy = names.slice();  // like making a copy of the array
 namesCopy[0] = 'Kate';
 
@@ -36,5 +30,9 @@ console.log(newGroup);  // ['George', 'John']
 
 //how you insert elements in the middle of an array using splice
 let newGroup = beatles.splice(1, 0, 'Pete', 'Nimit');      // here is insert from the index 1, not remove anything
+
+
+
+
 
 

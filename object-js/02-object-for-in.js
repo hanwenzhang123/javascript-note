@@ -1,3 +1,29 @@
+// for...in loop (used to loop over objects)
+
+let pusheen = {     //object
+  name: 'Pusheen',
+  age: 7,
+  color: 'gray and tabby',
+  sound: 'meow',
+}
+
+for (let key in pusheen) {
+  console.log(key);    //print out key only
+}
+
+for (let key in pusheen) {
+  console.log('her ' + key + 'is ' + pusheen[key]);    //pusheen[key] print out value, can not use dot notation because it converts to method
+}
+ 
+
+console.log(Object.keys(pusheen));    // get all the keys as array
+
+let keys = Object.keys(pusheen);
+for (let i =0; i < keys.length; i++) {
+  console.log(pusheen[keys[i]])
+}
+
+
 //A for...in loop only iterates over enumerable, non-Symbol properties
 //The for...in statement iterates over all enumerable properties of an object that are keyed by strings 
 //(ignoring ones keyed by Symbols), including inherited enumerable properties.

@@ -33,9 +33,5 @@ americanCity[0] = 'New ' + americanCity[0];   //when we modify americanCity, it 
 console.log(britishCity);    //New York
 console.log(americanCity);    //New York
 
-  
-
-
-passing values into functions
-
-equality operators and PBV/PBR
+ 
+ 

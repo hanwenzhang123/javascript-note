@@ -34,5 +34,5 @@ let newGroup = beatles.splice(1, 0, 'Pete', 'Nimit');      // here is insert fro
 
 
 
-
-
+.join() - specify what you would like to join in between of each element in the arrary
+beatles.join(', ')    //Paul, George, John, Ringo

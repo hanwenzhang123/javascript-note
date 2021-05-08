@@ -1,3 +1,21 @@
+let pusheen = {   
+  name: 'Pusheen',
+  age: 7,
+  color: ['gray', 'tabby'],     //array inside an object
+  siblings:{        //object inside an object
+    sister: 'stormy', 
+    brother: 'pip'
+  },
+  sound: 'meow',
+}
+
+console.log(pusheen.color[0]);   // gray 
+console.log(pusheen.color[1]);   // tabby
+console.log(pusheen.siblings.sister);    //stormy
+console.log(pusheen['siblings']['sister']);    //stormy
+
+
+
 //example
 const questions = [
   { question: 'How many planets are in the Solar System?', answer: '8' },

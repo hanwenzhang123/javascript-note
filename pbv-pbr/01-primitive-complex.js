@@ -33,21 +33,8 @@ americanCity[0] = 'New ' + americanCity[0];   //when we modify americanCity, it 
 console.log(britishCity);    //New York
 console.log(americanCity);    //New York
 
+  
 
-vairable assignment
-//primitive
-When you assign a primitive value to a variable, the variable 'stores' a copy of that value
-
-let first = 20;
-let second = first;
-
-second++;
-
-console.log(first);   //20
-console.log(second);
-
-when you assign a complex value to a variable, the variable DOES NOT store a copy of the value
-//complex
 
 passing values into functions
 

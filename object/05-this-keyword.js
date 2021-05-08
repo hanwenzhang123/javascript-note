@@ -33,7 +33,8 @@ let calc = {
 
 calc.plus(5);
 calc.plus(5);
-console.log(calc.total);
+calc.minus(3);
+console.log(calc.total);    //7
 
 
 

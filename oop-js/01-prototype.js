@@ -14,3 +14,4 @@ const nums = [ 6, 7, 8, 9 ];
 nums.pop(); // "SORRY I WANT THAT ELEMENT, I WILL NEVER POP IT OFF!"
 
  
+__proto_(dunder proto): is a property that reference the prototype

@@ -43,7 +43,7 @@ A class or function that specifies the type of the object instance.
 A list of values that the constructor will be called with.
 
 
-
+//do not use arrow function when use 'this' keyword
 Color.prototype.rgb = function() {
 	const { r, g, b } = this;
 	return `rgb(${r}, ${g}, ${b})`;

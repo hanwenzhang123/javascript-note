@@ -1,13 +1,14 @@
 // This is a Constructor Function...
 function Color(r, g, b) {
-	this.r = r;
+	this.r = r;			//'this' refers parent Window object
 	this.g = g;
 	this.b = b;
 }
 
 //If you call it on its own like a regular function...
-Color(35, 60, 190); //undefined
+Color(35, 60, 190); //undefined			//need to create a new object
 //It returns undefined. Seems useless!
+
 
 // *****************
 // THE NEW OPERATOR!
@@ -17,6 +18,31 @@ Color(35, 60, 190); //undefined
 // 2. Links (sets the constructor of) this object to another object;
 // 3. Passes the newly created object from Step 1 as the this context;
 // 4. Returns this if the function doesn't return its own object.
+
+function Car(make, model, year) {
+  this.make = make;		
+  this.model = model;
+  this.year = year;
+}
+
+const car1 = new Car('Eagle', 'Talon TSi', 1993);		// the new keyword creates a new object based on the pattern
+
+console.log(car1.make);
+// expected output: "Eagle"
+
+The new operator lets developers create an instance of a user-defined object type or of one of the built-in object types that has a constructor function.
+
+
+- Syntax
+new constructor[([arguments])]
+
+- Parameters
+//constructor
+A class or function that specifies the type of the object instance.
+//arguments
+A list of values that the constructor will be called with.
+
+
 
 Color.prototype.rgb = function() {
 	const { r, g, b } = this;

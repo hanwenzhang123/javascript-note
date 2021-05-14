@@ -6,7 +6,6 @@
 //reference to the parent class, where we extends from, here is pet
 
 
-
 class Pet {			//parent class
 	constructor(name, age) {
 		console.log('IN PET CONSTRUCTOR!');

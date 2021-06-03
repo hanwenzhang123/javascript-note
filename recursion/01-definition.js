@@ -1,6 +1,6 @@
-recursion occurs when a function calls itself
+recursion occurs when a function calls itself, calling a function inside of a function itself
 
-recursion is an altrenative to iteraion (using a loop)
+recursion is an altrenative to iteraion (using a loop) like for loop or while loop
 
 in the real world, you may see recursion instead of iteration when a recursive solution is
 - easier to read about (recursion helps break big problems into small chunks
@@ -12,6 +12,5 @@ in the real world, you may see recursion instead of iteration when a recursive s
 recursion is functions calling itself to solve problem
 recursion and call stack are interrelated
 recursion uses call stack to store information and unwind the call stack to pass the answer to higher number of the stack
-
 
   

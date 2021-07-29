@@ -16,7 +16,7 @@ const numbers = [1, 2, 3];
 console.log(num1, num2);    //1, 2
 
 const numbers = [1, 2, 3];
-[num1, , num3] = numbers;
+[num1, , num3] = numbers;   //leave out one space so JS will know you look for next value in the array, you do not have a change the name
 console.log(num1, num3);    //1, 3
 
 
@@ -25,4 +25,4 @@ console.log(num1, num3);    //1, 3
 console.log(name) //Max
 console.log(age)  //undefined
 
-  
+   

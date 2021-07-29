@@ -40,3 +40,34 @@ person.printMyName();
 person.printGender(); //parent class
 
    
+//classes, properties and methods
+properties are like variables attached to classes and objects
+//ES6
+constructor(){
+  this.myProperty = 'value';
+}
+//ES7
+myProperty = 'value'
+
+methods are like functions attached to classes and objects
+//ES6
+myMethod(){...}
+//ES7
+myMethod = () => {...}
+
+
+//Example above usingES7
+class Human {
+ gender = 'male';
+ printGender = () => {
+    console.log(this.gender);
+  }
+}
+class Person extends Human {
+ name = 'Max';
+ gender = 'Female';
+ printMyName = () => {
+    console.log(this.name);
+  }
+}
+                   

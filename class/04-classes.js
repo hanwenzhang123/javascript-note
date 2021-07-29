@@ -35,7 +35,7 @@ class Person extends Human {  //if you extend a class with a constructor, you ha
   }
 }
 
-const person = new Person()'
+const person = new Person();
 person.printMyName();
 person.printGender(); //parent class
 

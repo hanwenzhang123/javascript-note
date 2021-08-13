@@ -1,5 +1,30 @@
-//if the first one callback not working, call next one; 
-//it is a function passeed into another function as a parameter
+A callback function is a function which is:
+
+accessible by another function, and
+is invoked after the first function if that first function completes
+
+// A function which accepts another function as an argument
+// (and will automatically invoke that function when it completes - note that there is no explicit call to callbackFunction)
+funct printANumber(int number, funct callbackFunction) {
+    printout("The number you provided is: " + number);
+}
+
+// a function which we will use in a driver function as a callback function
+funct printFinishMessage() {
+    printout("I have finished printing numbers.");
+}
+
+// Driver method
+funct event() {
+   printANumber(6, printFinishMessage);
+}
+
+// The number you provided is: 6
+// I have finished printing numbers.
+
+
+if the first one callback not working, call next one; 
+it is a function passeed into another function as a parameter
 
 function callbackFunction(){
   //do something

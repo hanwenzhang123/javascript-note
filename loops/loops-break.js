@@ -1,3 +1,21 @@
+//break
+for ( let i = 0; i < 5; i++ ) {  
+  if ( i === 3 ) {
+    break;
+  }
+}
+//0 1 2
+//break at 3
+
+//continue
+for ( let i = 0; i < 5; i++ ) {  
+  if ( i === 3 ) {
+    continue;
+  }
+}
+//0 1 2 4
+//skip 3
+
 for ( let i = 5; i >= 1; i-- ) {  
   let guess = prompt(`Enter the secret word. You have ${i} tries.`);
   if ( guess === secretWord ) {

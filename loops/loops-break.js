@@ -16,6 +16,7 @@ for ( let i = 0; i < 5; i++ ) {
 //0 1 2 4
 //skip 3
 
+
 for ( let i = 5; i >= 1; i-- ) {  
   let guess = prompt(`Enter the secret word. You have ${i} tries.`);
   if ( guess === secretWord ) {

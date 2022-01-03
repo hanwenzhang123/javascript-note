@@ -1,3 +1,15 @@
+//What‘s Object-oriented Programming (OOP)?
+//Work with (real-life) Entities in your Code
+ProductList
+- Renders a list of products which were fetched from a server (database)
+- Object holds rendering + fetching logic
+Product
+- Renders details about a product and allows addition to cart
+- Object holds rendering + cart-adding logic
+ShoppingCart
+- Renders cart products and total and allows user to order them
+- Object holds rendering + ordering (server communication) logic
+
 //String.prototype is a "template object" for every single string.
 //We could go crazy and add our own method called yell...
 String.prototype.yell = function() {

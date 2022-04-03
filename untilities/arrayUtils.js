@@ -11,15 +11,15 @@ export function last(array, n = 1) {
   return array.filter((_, index) => array.length - index <= n)
 }
 
-export function sample(array) {
+export function sample(array) {   //get a random value from the array
   return array[randomNumberBetween(0, array.length - 1)]
 }
 
-export function pluck(array, key) {
+export function pluck(array, key) {   //array of objects, just one particular key from that array
   return array.map(element => element[key])
 }
 
-export function groupBy(array, key) {
+export function groupBy(array, key) {   //array of objects, grouping all the elements in that array by the key
   return array.reduce((group, element) => {
     const keyValue = element[key]
     return { ...group, [keyValue]: [...(group[keyValue] ?? []), element] }
@@ -45,5 +45,27 @@ const people = [
   { name: "Sally", age: 21 },
 ]
 
-console.log("Pluck:\n", pluck(people, "name"))
+console.log("Pluck:\n", pluck(people, "name"))  // ['Kyle', 'John', 'Mike', 'Jill', 'Sally']
 console.log("Group By:\n", groupBy(people, "age"))
+
+/*
+18: Array(1)
+0: {name: 'Mike', age: 18}
+length: 1
+[[Prototype]]: Array(0)
+
+21: Array(1)
+0: {name: 'Sally', age: 21}
+length: 1
+[[Prototype]]: Array(0)
+
+24: Array(1)
+0: {name: 'John', age: 24}
+length: 1
+[[Prototype]]: Array(0)
+
+26: Array(2)
+0: {name: 'Kyle', age: 26}
+1: {name: 'Jill', age: 26}
+length: 2
+*/
